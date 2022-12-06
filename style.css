@@ -1,0 +1,82 @@
+@font-face {
+    font-family: qatar2022;
+    src: url(Qatar2022Arabic-Bold.ttf);
+}
+*{
+    font-family: qatar2022, sans-serif;
+}
+header{
+    background-color: #8A1538;
+    color: white;
+    height: auto;
+    width:100%;
+    margin: 5px;
+    box-shadow: inset 5em 2em 5em 2em #4f081e;
+    
+}
+h1{
+   text-align: center;
+   font-size: 30px;
+   padding: 35px;
+   margin: auto;
+   text-shadow: 1px 1px 1px #6a6907;
+
+}
+.stadium{
+    box-shadow: 10px 5px 10px #8A1538 ;
+    margin: 5px;
+    width: 100%;
+    height: auto;
+}
+.stadium p{
+    font-size: 20px;
+}
+.stadium img{
+    float: left;
+    position: relative;
+    width: 272px;
+    height: 150px;
+    margin: 5px;
+}
+.stadium h2{
+    font-size: 40px;
+
+}
+
+#lusail{
+    background-color: rgba(225, 193, 12, 0.881);
+    color: white;
+}
+#alBayt{
+    background-color: rgba(204, 100, 25, 0.751);
+}
+#khalifa{
+ background-color: rgba(131, 60, 198, 0.841);
+ color: white;
+ 
+}
+#AlRayyan{
+    background-color: rgba(227, 14, 14, 0.848);
+}
+#AlThumama{
+    background-color: rgba(247, 239, 239, 0.768);
+    color: rgba(8, 69, 13, 0.795);
+}
+#EducationCity{
+    background-color: rgba(57, 131, 22, 0.896);
+}
+#AlJanoub{
+    background-color: rgb(41, 120, 181);
+    color: white;
+}
+#S974{
+    background-color: yellow;
+    color: brown;
+}
+
+@media screen and (max-width:500px) {
+    .stadium img,p{
+        width: 100%;
+        height: auto;
+    }
+}
